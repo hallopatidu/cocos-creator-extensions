@@ -37,3 +37,4 @@ coverage/
 
 # 忽略自动生成的文档和注释
 extensions/shader-graph/.npmrc
+extensions/cocoseus-graph/.npmrc

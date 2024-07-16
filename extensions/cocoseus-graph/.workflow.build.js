@@ -17,8 +17,8 @@ exports.tsc = function() {
 exports.lessc = function() {
     return [
         {
-            source: './static/shader-graph/style.less',
-            dist: './static/shader-graph/style.css',
+            source: './static/cocosues-graph/style.less',
+            dist: './static/cocosues-graph/style.css',
         },
     ];
 };

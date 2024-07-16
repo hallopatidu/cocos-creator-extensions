@@ -3,13 +3,13 @@
     "package_version": 2,
     "version": "1.0.0",
     "editor": ">=3.8.2",
-    "name": "shader-graph",
-    "description": "i18n:shader-graph.description",
+    "name": "cocosues-graph",
+    "description": "i18n:cocosues-graph.description",
     "main": "./dist/main.js",
     "scripts": {
         "build": "npm run build-less && tsc",
         "watch": "tsc -w",
-        "build-less": "lessc ./static/shader-graph/style.less > ./static/shader-graph/style.css",
+        "build-less": "lessc ./static/cocosues-graph/style.less > ./static/cocosues-graph/style.css",
         "pack": "npx ts-node ./lib/pack.ts",
         "test": "node --test ./tests"
     },
@@ -38,10 +38,10 @@
         "typescript": "^4.3.4"
     },
     "panels": {
-        "shader-graph": {
-            "title": "i18n:shader-graph.title",
+        "cocosues-graph": {
+            "title": "i18n:cocosues-graph.title",
             "type": "dockable",
-            "main": "dist/panels/shader-graph/index.js",
+            "main": "dist/panels/cocosues-graph/index.js",
             "icon": "./static/icon.png",
             "size": {
                 "min-width": 400,
@@ -79,7 +79,7 @@
             "asset-handler": [
                 {
                     "handler": "registerShaderGraphImporter",
-                    "name": "shader-graph",
+                    "name": "cocosues-graph",
                     "extnames": [
                         ".shadergraph"
                     ]
@@ -91,8 +91,8 @@
         },
         "menu": [
             {
-                "path": "i18n:menu.panel/i18n:shader-graph.menu.name",
-                "label": "i18n:shader-graph.menu.open",
+                "path": "i18n:menu.panel/i18n:cocosues-graph.menu.name",
+                "label": "i18n:cocosues-graph.menu.open",
                 "message": "open"
             }
         ],
@@ -171,87 +171,87 @@
             },
             "open-asset": {
                 "methods": [
-                    "shader-graph.openAsset"
+                    "cocosues-graph.openAsset"
                 ]
             },
             "popup-create-menu": {
                 "methods": [
-                    "shader-graph.onPopupCreateMenu"
+                    "cocosues-graph.onPopupCreateMenu"
                 ]
             },
             "scene:ready": {
                 "methods": [
-                    "shader-graph.onSceneReady"
+                    "cocosues-graph.onSceneReady"
                 ]
             },
             "scene:close": {
                 "methods": [
-                    "shader-graph.onSceneClose"
+                    "cocosues-graph.onSceneClose"
                 ]
             },
             "asset-db:asset-add": {
                 "methods": [
-                    "shader-graph.onAssetAdd"
+                    "cocosues-graph.onAssetAdd"
                 ]
             },
             "asset-db:asset-delete": {
                 "methods": [
-                    "shader-graph.onAssetDelete"
+                    "cocosues-graph.onAssetDelete"
                 ]
             },
             "asset-db:asset-change": {
                 "methods": [
-                    "shader-graph.onAssetChange"
+                    "cocosues-graph.onAssetChange"
                 ]
             },
             "save": {
                 "methods": [
-                    "shader-graph.onSave"
+                    "cocosues-graph.onSave"
                 ]
             },
             "delete": {
                 "methods": [
-                    "shader-graph.onDelete"
+                    "cocosues-graph.onDelete"
                 ]
             },
             "copy": {
                 "methods": [
-                    "shader-graph.onCopy"
+                    "cocosues-graph.onCopy"
                 ]
             },
             "cut": {
                 "methods": [
-                    "shader-graph.onCut"
+                    "cocosues-graph.onCut"
                 ]
             },
             "paste": {
                 "methods": [
-                    "shader-graph.onPaste"
+                    "cocosues-graph.onPaste"
                 ]
             },
             "duplicate": {
                 "methods": [
-                    "shader-graph.onDuplicate"
+                    "cocosues-graph.onDuplicate"
                 ]
             },
             "undo": {
                 "methods": [
-                    "shader-graph.onUndo"
+                    "cocosues-graph.onUndo"
                 ]
             },
             "redo": {
                 "methods": [
-                    "shader-graph.onRedo"
+                    "cocosues-graph.onRedo"
                 ]
             },
             "create-group-node": {
                 "methods": [
-                    "shader-graph.onCreateGroupNode"
+                    "cocosues-graph.onCreateGroupNode"
                 ]
             },
             "restore-group-node": {
                 "methods": [
-                    "shader-graph.onRestoreGroupNode"
+                    "cocosues-graph.onRestoreGroupNode"
                 ]
             }
         },

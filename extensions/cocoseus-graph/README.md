@@ -10,7 +10,7 @@ To promote collaboration and innovation within the developer community, we have 
 
 ---
 
-GitHub：[shader-graph](https://github.com/knoxHuang/cocos-creator-extensions/tree/main/extensions/shader-graph)
+GitHub：[cocosues-graph](https://github.com/knoxHuang/cocos-creator-extensions/tree/main/extensions/cocosues-graph)
 
 ---
 
@@ -24,9 +24,9 @@ GitHub：[shader-graph](https://github.com/knoxHuang/cocos-creator-extensions/tr
 
 ## Preparation Phase
 
-1. Download Cocos Creator 3.8.2 editor and the shader-graph.zip plugin.
+1. Download Cocos Creator 3.8.2 editor and the cocosues-graph.zip plugin.
 2. Open Cocos Creator 3.8.2 editor, go to the main menu, select **Extensions/Extension Manager** to open the Extensions panel.
-3. Click <img src="readme/导入扩展文件.png" width="200px">, choose the **shader-graph.zip** extension file, and import it.
+3. Click <img src="readme/导入扩展文件.png" width="200px">, choose the **cocosues-graph.zip** extension file, and import it.
 4. Restart the editor (Currently, for version 3.8.2, a restart is required to ensure the registration of **.shadergraph** assets. In future versions >= 3.8.3, this process will be improved, and a restart may not be necessary).
 
 ---

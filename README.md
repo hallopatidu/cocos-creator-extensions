@@ -6,6 +6,7 @@ For storing publicly available extension plugin libraries
 
 Extension Plugin List：
 
+- [cocosues-graph](extensions/cocosues-graph/README.md)（Depends on the Cocos Creator editor version >= 3.8.2）
 - [shader-graph](extensions/shader-graph/README.zh-CN.md)（Depends on the Cocos Creator editor version >= 3.8.2）
 - [localization-editor](./extensions/localization-editor/README.zh-CN.md)（Depends on the Cocos Creator editor version >= 3.7.0）
 
